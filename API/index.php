@@ -12,7 +12,7 @@ $json = '{
 
 // Optionals
 // Could be set default at RequestAPI class
-$url = 'http://api.com/activity' 
+$url = 'http://api.com/activity';
 
 // Could be set default at Authenticator class
 $urlAuth = 'http://api.com/token' 
@@ -25,7 +25,7 @@ $api = new RequestAPI($json, new Authenticator($restExecutor, $urlAuth), $restEx
 
 if ($api->auth($user, $password)){
 	// Could use any HTTP methods. POST is default.
-	$api->request('GET');
+	$api->request();
 } else {
 	print 'Login and/or password do not accepted.';
 }

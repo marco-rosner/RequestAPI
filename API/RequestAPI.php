@@ -1,7 +1,6 @@
 <?php
 
 require_once 'Order.php';
-require_once 'Service/TicketProcessor.php';
 
 /**
  * RequestAPI class, main class of this API. This class is responsible for forward information to
@@ -80,7 +79,9 @@ class RequestAPI {
 				break;
 		}
 
-		echo json_encode($data);
+		// Test in browser: echo json_encode($data);
+		
+		return json_encode($data);
 
 	}
 

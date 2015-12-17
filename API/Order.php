@@ -22,7 +22,7 @@ class Order{
   public function __construct($json) {
   	$this->jsonData = $json;
   	$this->arrayData = json_decode($json,true);
-  	
+    
     // If necessary, set others attributes here.
 
   }

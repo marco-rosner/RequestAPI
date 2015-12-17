@@ -152,8 +152,8 @@ class RestExecutor implements RestInterface {
             $curlopt[CURLOPT_POSTFIELDS] = $parameters_string;
         }
         elseif($parameters_string){
-            $this->url .= strpos($this->url, '?')? '&' : '?';
-            $this->url .= $parameters_string;
+            $url .= strpos($url, '?')? '&' : '?';
+            $url .= $parameters_string;
         }
 
         curl_setopt_array($ch, $curlopt);
