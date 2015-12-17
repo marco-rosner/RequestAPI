@@ -4,7 +4,7 @@ This API is responsible for, using HTTP methods (_API RESTfull_), forward inform
 
 ### Usage
 
-See [index.php](https://github.com/marcorosner/RequestAPI/API/index.php).
+See [index.php](https://github.com/marcorosner/RequestAPI/blob/master/API/index.php).
 
 ## Features
 
