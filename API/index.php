@@ -15,9 +15,9 @@ $json = '{
 $url = 'http://api.com/activity';
 
 // Could be set default at Authenticator class
-$urlAuth = 'http://api.com/token' 
-$user = 'login'
-$password = '12345'
+$urlAuth = 'http://api.com/token'; 
+$user = 'login';
+$password = '12345';
 
 // Usage
 $restExecutor = new RestExecutor();
